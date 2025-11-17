@@ -6,19 +6,6 @@ Este projeto tem como objetivo aplicar técnicas de **aprendizado de máquina su
 
 ---
 
-## Estrutura do Projeto
-
-- **data/iris.csv** → Conjunto de dados contendo 150 amostras, cada uma com quatro atributos numéricos e a respectiva espécie.
-- **src/train.py** → Script para treinamento e avaliação dos modelos.
-- **src/predict.py** → Script para predição de novas amostras fornecidas pelo usuário.
-- **src/models.py** → Definição e seleção dos algoritmos de classificação.
-- **src/utils.py** → Funções auxiliares para carregamento de dados, mapeamento de classes e métricas.
-- **notebooks/exploracao.ipynb** → Análise exploratória inicial do conjunto de dados.
-- **requirements.txt** → Lista de dependências necessárias para execução.
-- **video_script.md** → Roteiro sugerido para apresentação em vídeo.
-
----
-
 ## Metodologia
 
 1. **Aquisição dos dados**  
@@ -57,4 +44,36 @@ Este projeto tem como objetivo aplicar técnicas de **aprendizado de máquina su
 ### Instalação das dependências
 ```bash
 pip install -r requirements.txt
+```
+
+### Baixar o dataset Iris
+```bash
+curl -L "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" -o data/iris.csv
+```
+
+### Exemplo com Decision Tree:
+```bash
+python src/train.py --model dt --save-model models/model_dt.pkl
+```
+
+### Exemplo com kNN e MLP:
+```bash
+python src/train.py --model knn --standardize --save-model models/model_knn.pkl
+python src/train.py --model mlp --standardize --save-model models/model_mlp.pkl
+```
+
+### Predição via Linha de Comando
+```bash
+python src/predict.py --model-path models/model_dt.pkl \
+  --sepal-length 5.1 --sepal-width 3.5 --petal-length 1.4 --petal-width 0.2
+```
+
+### Interface - Instalar Streamlit
+``` bash
+pip install streamlit
+streamlit run app.py
+```
+
+
+
 
