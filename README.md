@@ -2,7 +2,7 @@
 
 # Projeto de Classificação de Espécies de Íris
 
-Este projeto tem como objetivo aplicar técnicas de **aprendizado de máquina supervisionado** para a classificação de flores da espécie *Iris*, utilizando o conjunto de dados clássico proposto por Ronald Fisher (1936). O trabalho foi desenvolvido como parte da disciplina **Engenharias de Computação e Software (AG2)** do Instituto Nacional de Telecomunicações – Inatel.
+Este projeto tem como objetivo aplicar técnicas de **aprendizado de máquina supervisionado** para a classificação de flores da espécie *Iris*, utilizando o conjunto de dados clássico proposto por Ronald Fisher (1936). O trabalho foi desenvolvido por Daniela Maria Barbosa Faria, como parte da disciplina **Engenharias de Computação (AG2)**.
 
 ---
 
