@@ -4,6 +4,7 @@
 
 Este projeto tem como objetivo aplicar técnicas de **aprendizado de máquina supervisionado** para a classificação de flores da espécie *Iris*, utilizando o conjunto de dados clássico proposto por Ronald Fisher (1936). O trabalho foi desenvolvido por Daniela Maria Barbosa Faria, como parte da disciplina **Engenharias de Computação (AG2)**.
 
+Link do vídeo pelo OneDrive: https://1drv.ms/v/c/238659ffa195e117/EXpJX1EOG45Ep7044QZBylQBR7xAWSN6kDhtBiU0K-NqvA
 ---
 
 ## Metodologia
